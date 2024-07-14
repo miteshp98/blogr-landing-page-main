@@ -92,6 +92,10 @@
   margin-block: 15px;
 }
 
+.menu-link:hover {
+  text-decoration: underline;
+}
+
 .icon-arrow-dark {
   transform: rotate(0deg);
   transition: all 0.1s ease-in-out;
@@ -118,6 +122,10 @@
   font-weight: 500;
 }
 
+.submenu-link:hover {
+  color: black;
+}
+
 .account-wrap {
   border-top: 1px solid #efeff1;
   width: 85%;
@@ -142,6 +150,7 @@
 .login-button {
   background: transparent;
   margin-top: 1.5rem;
+  cursor: pointer;
   color: var(--Verydarkblue-headings);
 }
 
@@ -152,6 +161,13 @@
     hsla(353, 100%, 62%, 1) 100%
   );
   color: var(--White-text);
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  color: var(--Lightred);
+  background: transparent;
+  border: 1px solid var(--Lightred);
 }
 
 .intro-section {
@@ -201,14 +217,25 @@ h1 {
   color: var(--Lightred);
   background-color: var(--White-text);
   border: none;
+  cursor: pointer;
 }
 
+.start-btn:hover {
+  background-color: rgba(255, 255, 255, 0.307);
+  border: none;
+  color: var(--White-text);
+}
 .learn-btn {
   color: var(--White-text);
   background-color: transparent;
   border: 1px solid var(--White-text);
+  cursor: pointer;
 }
 
+.learn-btn:hover {
+  background-color: white;
+  color: var(--Lightred);
+}
 .about-section {
   padding: 5rem 10px;
   height: 100%;
@@ -398,6 +425,10 @@ footer {
   color: var(--Grayishblue-footer-text);
 }
 
+.footer-subnav-link:hover {
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 425px) {
   .intra-content {
     margin-top: 30%;
@@ -468,6 +499,12 @@ footer {
 
   .menu-item {
     position: relative;
+  }
+
+  .signup-button:hover {
+    background-color: rgba(255, 255, 255, 0.307);
+    border: none;
+    color: var(--White-text);
   }
 
   .submenu-list {
