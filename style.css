@@ -7,7 +7,7 @@
 }
 
 @font-face {
-    font-family: "Adventures Unlimited Script";
+    font-family: "AdventuresUnlimited";
     src: url("./AdventuresUnlimited-ScriptBold_2.woff2") format("woff2"),
         url("./AdventuresUnlimited-ScriptBold_2.woff") format("woff"),
         url("./AdventuresUnlimited-ScriptBold_2.woff2") format("truetype");
@@ -32,8 +32,8 @@
     --Verydark-gray-blue: hsl(237, 17%, 21%);
     --Verydark-desaturated-blue: hsl(237, 23%, 32%);
 
-    --overpass: "Adventures Unlimited Script", sans-serif;
-    --ubuntu: "Adventures Unlimited Script", sans-serif;
+    --overpass: "AdventuresUnlimited", sans-serif;
+    --ubuntu: "AdventuresUnlimited", sans-serif;
 }
 
 .hero-background {
