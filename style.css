@@ -48,7 +48,7 @@
 
 /* Example usage */
 body {
-    font-family: "AdventuresUnlimited", cursive;
+    font-family: "AdventuresUnlimited";
     font-size: 2rem;
     /* -webkit-font-smoothing: antialiased; */
     /* -moz-osx-font-smoothing: grayscale; */
